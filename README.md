@@ -14,15 +14,17 @@ e.g. `g diff`
 
 | command | origin |
 | - | - |
-| a | add |
-| om | origin master |
-| pom | push origin master |
-| cb | checkout -b |
-| b | branch |
-| m | merge |
 | cm | commit -m |
 | rao | remote add origin |
 | po | push origin |
+| pom | push origin master |
+| a | add |
+| b | branch |
+| c | checkout |
+| om | origin master |
+| m | merge |
+| cb | checkout -b |
+| db | branch -d |
 
 ## To build readme:  
 

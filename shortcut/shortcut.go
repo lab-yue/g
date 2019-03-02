@@ -4,6 +4,7 @@ package shortcut
 var Map = map[string][]string{
 	"a": {"add"},
 	"b": {"branch"},
+	"c": {"checkout"},
 	"m": {"merge"},
 
 	"om":  {"origin", "master"},
@@ -12,4 +13,5 @@ var Map = map[string][]string{
 	"po":  {"push", "origin"},
 	"pom": {"push", "origin", "master"},
 	"cb":  {"checkout", "-b"},
+	"db":  {"branch", "-d"},
 }
