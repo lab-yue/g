@@ -12,13 +12,17 @@ func main() {
 
 	out := `# g
 
-## git commands shortcuts
+shortcuts for git commands
 
-This package just provides extra shortcut options, commands not mentioned would be the same as origin git command.
+This package just provides extra shortcut options, commands not mentioned would be the same as origin git commands.
 
 e.g. ` + "`g diff`" + `
 
-### shortcuts map
+## To install
+
+` + "`$ go get github.com/rainy-me/g`" + `
+
+## Shortcuts map
 
 | command | origin |
 | - | - |
@@ -28,7 +32,7 @@ e.g. ` + "`g diff`" + `
 		out += fmt.Sprintf("| %s | %s |\r\n", k, strings.Join(v, " "))
 	}
 
-	out += "\r\n### To build readme:  \r\n\r\n`go build -o dist/doc doc/doc.go`\r\n\r\n `./dist/doc`"
+	out += "\r\n## To build readme:  \r\n\r\n`go build -o dist/doc doc/doc.go`\r\n\r\n `./dist/doc`"
 
 	fmt.Println(out)
 

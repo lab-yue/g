@@ -23,7 +23,7 @@ func main() {
 		args := []string{}
 
 		for _, arg := range c.Args() {
-			if val, ok := shortcuts.Map[arg]; ok {
+			if val, ok := shortcut.Map[arg]; ok {
 				args = append(args, val...)
 			} else {
 				args = append(args, arg)

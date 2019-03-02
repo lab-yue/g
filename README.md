@@ -1,26 +1,30 @@
 # g
 
-## git commands shortcuts
+shortcuts for git commands
 
-This package just provides extra shortcut options, commands not mentioned would be the same as origin git command.
+This package just provides extra shortcut options, commands not mentioned would be the same as origin git commands.
 
 e.g. `g diff`
 
-### shortcuts map
+## To install
+
+`$ go get github.com/rainy-me/g`
+
+## Shortcuts map
 
 | command | origin |
 | - | - |
-| b | branch |
-| m | merge |
+| a | add |
 | om | origin master |
-| rao | remote add origin |
 | pom | push origin master |
 | cb | checkout -b |
-| a | add |
+| b | branch |
+| m | merge |
 | cm | commit -m |
+| rao | remote add origin |
 | po | push origin |
 
-### To build readme:  
+## To build readme:  
 
 `go build -o dist/doc doc/doc.go`
 
