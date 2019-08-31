@@ -33,7 +33,7 @@ func main() {
 
 		cmd.Args = append(cmd.Args, args...)
 
-		fmt.Println(cmd.Args)
+		// fmt.Println(cmd.Args)
 		cmd.Run()
 		return nil
 	}
