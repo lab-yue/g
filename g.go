@@ -20,6 +20,7 @@ func main() {
 		cmd := exec.Command("git")
 		cmd.Stdin = os.Stdin
 		cmd.Stdout = os.Stdout
+		cmd.Stderr = os.Stderr
 		args := []string{}
 
 		for _, arg := range c.Args() {
