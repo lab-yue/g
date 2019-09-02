@@ -35,7 +35,7 @@ func main() {
 		cmd.Args = append(cmd.Args, args...)
 
 		// fmt.Println(cmd.Args)
-		cmd.Run()1
+		cmd.Run()
 		return nil
 	}
 
