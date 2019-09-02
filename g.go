@@ -14,6 +14,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "g"
 	app.Usage = "git command shortcut"
+	app.Version = "0.2.0"
 
 	app.Action = func(c *cli.Context) error {
 
@@ -34,7 +35,7 @@ func main() {
 		cmd.Args = append(cmd.Args, args...)
 
 		// fmt.Println(cmd.Args)
-		cmd.Run()
+		cmd.Run()1
 		return nil
 	}
 
