@@ -7,7 +7,7 @@ var Map = map[string][]string{
 	"c": {"checkout"},
 	"m": {"merge"},
 	"s": {"status"},
-	"x": {"branch --show-current"},
+	"x": {"branch", "--show-current"},
 
 	"om":  {"origin", "master"},
 	"cm":  {"commit", "-m"},
