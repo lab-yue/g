@@ -14,17 +14,21 @@ e.g. `g diff`
 
 | command | origin |
 | - | - |
+| c | checkout |
 | cm | commit -m |
+| rso | remote set-url origin |
+| a | add |
+| m | merge |
+| om | origin master |
 | rao | remote add origin |
+| b | branch |
 | po | push origin |
 | pom | push origin master |
-| a | add |
-| b | branch |
-| c | checkout |
-| om | origin master |
-| m | merge |
-| cb | checkout -b |
 | db | branch -d |
+| s | status |
+| rgo | remote get-url origin |
+| pox | push origin $(git branch --show-current) |
+| cb | checkout -b |
 
 ## To build readme:  
 
