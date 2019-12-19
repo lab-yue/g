@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/exec"
 
-	"g/shortcut"
+	"github.com/rainy-me/g/shortcut"
 	"github.com/urfave/cli"
 )
 

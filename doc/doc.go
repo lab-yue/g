@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"g/shortcut"
+	"github.com/rainy-me/g/shortcut"
 )
 
 func main() {

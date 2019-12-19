@@ -1,4 +1,4 @@
-module g
+module github.com/rainy-me/g
 
 go 1.13
 
