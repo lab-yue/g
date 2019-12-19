@@ -7,6 +7,7 @@ var Map = map[string][]string{
 	"c": {"checkout"},
 	"m": {"merge"},
 	"s": {"status"},
+	"x": {"branch --show-current"},
 
 	"om":  {"origin", "master"},
 	"cm":  {"commit", "-m"},
@@ -15,7 +16,6 @@ var Map = map[string][]string{
 	"rso": {"remote", "set-url", "origin"},
 	"po":  {"push", "origin"},
 	"pom": {"push", "origin", "master"},
-	"pox": {"push", "origin", "$(git branch --show-current)"},
 	"cb":  {"checkout", "-b"},
 	"db":  {"branch", "-d"},
 }
