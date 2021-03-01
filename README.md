@@ -1,5 +1,9 @@
 # g
 
+### This this created as a way to learn go, and had no reason to implement in go at all. Maybe you want to checkout this [shell script](https://github.com/rainy-me/dotfiles/blob/master/scripts/g)
+
+---
+
 shortcuts for git commands
 
 This package just provides extra shortcut options, commands not mentioned would be the same as origin git commands.
